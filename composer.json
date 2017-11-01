@@ -1,0 +1,13 @@
+{
+  "name": "MyUrl",
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "files": ["Core/functions.php"],
+    "psr-4": {
+      "MyUrl\\": "MyUrl/",
+      "Core\\": "Core/"
+    }
+  }
+}
