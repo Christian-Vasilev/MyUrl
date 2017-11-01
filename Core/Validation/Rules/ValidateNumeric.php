@@ -3,7 +3,7 @@
 namespace Core\Validation\Rules;
 
 
-class Numeric extends Rule
+class ValidateNumeric extends Rule
 {
 
     public function check()

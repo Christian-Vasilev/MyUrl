@@ -3,7 +3,7 @@
 namespace Core\Validation\Rules;
 
 
-class Email extends Rule
+class ValidateEmail extends Rule
 {
 
     public function getError()
@@ -13,6 +13,6 @@ class Email extends Rule
 
     public function check()
     {
-        return strpos($this->input, '@') !== FALSE;
+        return filter_var($this->input, FILTER_VALIDATE_EMAIL);
     }
 }

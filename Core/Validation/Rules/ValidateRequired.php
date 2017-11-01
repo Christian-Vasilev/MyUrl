@@ -3,7 +3,7 @@
 namespace Core\Validation\Rules;
 
 
-class Required extends Rule
+class ValidateRequired extends Rule
 {
     public function check()
     {

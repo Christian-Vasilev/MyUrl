@@ -3,7 +3,7 @@
 namespace Core\Validation\Rules;
 
 
-class Min extends Rule
+class ValidateMin extends Rule
 {
 
     public function getError()

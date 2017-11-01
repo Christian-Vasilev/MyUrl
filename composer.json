@@ -1,7 +1,8 @@
 {
   "name": "MyUrl",
   "require": {
-    "guzzlehttp/guzzle": "^6.3"
+    "guzzlehttp/guzzle": "^6.3",
+    "nikic/fast-route": "^1.2"
   },
   "autoload": {
     "files": ["Core/functions.php"],
