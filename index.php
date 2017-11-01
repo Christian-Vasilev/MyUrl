@@ -30,7 +30,7 @@ switch ($routeInfo[0]) {
         break;
     case FastRoute\Dispatcher::FOUND:
         $handler = explode('@', $routeInfo[1]);
-        $vars = $routeInfo[+2];
+        $vars = $routeInfo[2];
         $controllerName = CONTROLLERS_NS.$handler[0];
         $controller = new $controllerName();
         echo call_user_func_array([$controller, $handler[1]], $vars);
